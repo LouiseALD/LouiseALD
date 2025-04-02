@@ -73,7 +73,7 @@ Selenium · Web Scraping · API REST · Postman · contextlib · pydub · reques
 
 ### 📜 Certificações
 
-[<img src="https://images.credly.com/size/340x340/images/684f6b83-2f9d-4d9e-92d2-eab5f593bdb3/image.png" width="120" alt="AWS Certified AI"/>](https://www.credly.com/badges/9a6048ad-2bf2-4ac9-919c-ba6447fcd131/public_url)
+[<img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="120" alt="AWS Certified AI"/>](https://www.credly.com/badges/9a6048ad-2bf2-4ac9-919c-ba6447fcd131/public_url)
 
 ---
 
