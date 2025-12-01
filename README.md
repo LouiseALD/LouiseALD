@@ -87,27 +87,11 @@ Atualmente foco em dados (estruturados e não estruturados), construção de pip
 
 ---
 
-### 📜 Certificações & Badges
+---
+
+### 📜 Certificações
 
 <div align="center">
-  
-  <table border="0">
-    <tr>
-      <td align="center" width="150">
-        <a href="https://www.credly.com/badges/9a6048ad-2bf2-4ac9-919c-ba6447fcd131/public_url">
-          <img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="120" alt="AWS Certified AI"/>
-        </a>
-      </td>
-      <td align="center" width="150">
-        <a href="https://www.credly.com/badges/573dc36f-ec3b-4377-ae2a-c362e9ba2f42/public_url">
-          <img src="https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="120" alt="AWS Cloud Practitioner"/>
-        </a>
-      </td>
-    </tr>
-  </table>
-
-  <br>
-
   <table border="0">
     <tr>
       <td align="center">
@@ -132,15 +116,34 @@ Atualmente foco em dados (estruturados e não estruturados), construção de pip
       </td>
     </tr>
   </table>
+</div>
 
-  <br>
+---
+
+### 🏅 Badges Credly
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" width="150">
+        <a href="https://www.credly.com/badges/9a6048ad-2bf2-4ac9-919c-ba6447fcd131/public_url">
+          <img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="120" alt="AWS Certified AI"/>
+        </a>
+      </td>
+      <td align="center" width="150">
+        <a href="https://www.credly.com/badges/573dc36f-ec3b-4377-ae2a-c362e9ba2f42/public_url">
+          <img src="https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="120" alt="AWS Cloud Practitioner"/>
+        </a>
+      </td>
+    </tr>
+  </table>
   
+  <br>
+
   <a href="https://www.credly.com/users/louise-carvalho/badges">
     <img src="https://img.shields.io/badge/Ver_todas_minhas_conquistas_no_Credly-d8a39d?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Profile"/>
   </a>
-
 </div>
-
 ---
 
 <p align="center">
