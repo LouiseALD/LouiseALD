@@ -58,7 +58,7 @@ jobs:
               # --- MONTAGEM DO HTML ---
               html_content = '<div align="center">\n'
               
-              # Pega as 6 mais recentes (ou mude para quantas quiser)
+              # Pega as 8 mais recentes
               count = 0
               for item in badges_list:
                   if count >= 8: break 
@@ -85,11 +85,12 @@ jobs:
               with open('README.md', 'r', encoding='utf-8') as f:
                   readme = f.read()
               
+              # AQUI ESTAVA O ERRO: As strings não podem estar vazias
               start_marker = ""
               end_marker = ""
               
               if start_marker not in readme or end_marker not in readme:
-                  print("❌ ERRO: Marcadores não encontrados.")
+                  print("❌ ERRO: Marcadores não encontrados no README.")
                   sys.exit(1)
               
               # Substitui o miolo entre os marcadores
