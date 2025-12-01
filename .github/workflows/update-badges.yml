@@ -1,4 +1,4 @@
-name: Atualizar Badges do Credly (Versão Final)
+name: Atualizar Badges (Via API JSON)
 
 on:
   schedule:
@@ -20,70 +20,68 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Instalar dependências
-        run: pip install requests beautifulsoup4
+      - name: Instalar requests
+        run: pip install requests
 
       - name: Rodar Script de Atualização
         shell: python
         run: |
           import requests
-          from bs4 import BeautifulSoup
           import sys
 
-          # SEU USUÁRIO
-          CREDLY_USER = "louise-aldrighi" 
-          URL = f"https://www.credly.com/users/{CREDLY_USER}/badges#credly"
+          # --- CONFIGURAÇÃO ---
+          URL = "https://www.credly.com/users/louise-aldrighi/badges.json"
           
-          print(f"--- INICIANDO ---")
-          print(f"Lendo perfil: {URL}")
+          print(f"--- CONSULTANDO API JSON ---")
+          print(f"Alvo: {URL}")
           
           try:
               headers = {
-                  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
               }
+              
               response = requests.get(URL, headers=headers)
               
               if response.status_code != 200:
-                  print(f"ERRO: Não foi possível acessar o perfil. Status: {response.status_code}")
+                  print(f"Erro ao acessar a API: {response.status_code}")
                   sys.exit(1)
               
-              soup = BeautifulSoup(response.text, 'html.parser')
+              data = response.json()
+              badges_list = data.get('data', [])
               
-              # AQUI ESTAVA O SEGREDO: Usar o data-testid que vimos no seu HTML
-              badges = soup.find_all('div', attrs={'data-testid': 'mobile-badge-stackable-card'})
-              
-              print(f"Badges encontradas: {len(badges)}")
+              print(f"Sucesso! Encontrados {len(badges_list)} badges.")
 
-              if len(badges) == 0:
-                  print("ERRO: Nenhuma badge encontrada mesmo com o novo seletor.")
+              if not badges_list:
+                  print("Aviso: Lista de badges retornou vazia.")
                   sys.exit(0)
 
-              # Monta o HTML
+              # --- MONTAGEM DO HTML ---
               html_content = '<div align="center">\n'
               
+              # Pega as 6 mais recentes (ou mude para quantas quiser)
               count = 0
-              for badge in badges:
-                  if count >= 6: break # Vamos mostrar as 6 mais recentes
+              for item in badges_list:
+                  if count >= 8: break 
                   
-                  # No seu HTML, o link está na div principal e a imagem dentro dela
-                  relative_link = badge.get('href')
-                  img_tag = badge.find('img')
+                  badge_details = item.get('badge_template', {})
                   
-                  if relative_link and img_tag:
-                      href = f"https://www.credly.com{relative_link}"
-                      img_src = img_tag.get('src')
-                      title = badge.get('aria-label', 'Badge Credly')
-                      
-                      # Ajuste para pegar imagem de melhor qualidade se possível (opcional)
-                      if "110x110" in img_src:
-                          img_src = img_src.replace("110x110", "220x220")
-                      
-                      html_content += f'  <a href="{href}" title="{title}"><img src="{img_src}" width="110" style="margin: 5px;"></a>\n'
+                  # Dados para o HTML
+                  badge_id = item.get('id')
+                  titulo = badge_details.get('name', 'Badge')
+                  img_url = badge_details.get('image', {}).get('url')
+                  
+                  # Constrói o link público do Credly
+                  public_link = f"https://www.credly.com/badges/{badge_id}"
+                  
+                  if img_url and badge_id:
+                      # Adiciona a imagem com link
+                      html_content += f'  <a href="{public_link}" title="{titulo}"><img src="{img_url}" width="110" style="margin: 5px;"></a>\n'
                       count += 1
               
               html_content += '</div>'
               
-              # Atualiza o README
+              # --- ATUALIZAÇÃO DO README ---
+              print("Lendo README.md...")
               with open('README.md', 'r', encoding='utf-8') as f:
                   readme = f.read()
               
@@ -91,9 +89,10 @@ jobs:
               end_marker = ""
               
               if start_marker not in readme or end_marker not in readme:
-                  print("ERRO: Marcadores não encontrados no README.md")
+                  print("ERRO: Marcadores não encontrados.")
                   sys.exit(1)
               
+              # Substitui o miolo entre os marcadores
               part1 = readme.split(start_marker)[0]
               part2 = readme.split(end_marker)[1]
               
@@ -102,13 +101,13 @@ jobs:
               with open('README.md', 'w', encoding='utf-8') as f:
                   f.write(new_readme)
               
-              print("SUCESSO: README atualizado com as novas badges!")
+              print("README atualizado com sucesso!")
 
           except Exception as e:
-              print(f"ERRO DE EXECUÇÃO: {e}")
+              print(f"Ocorreu um erro crítico: {e}")
               sys.exit(1)
 
       - name: Commit e Push das alterações
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "🤖 Update: Badges encontradas com sucesso!"
+          commit_message: "Update: Badges via API JSON"
