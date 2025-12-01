@@ -33,7 +33,7 @@ jobs:
           # --- CONFIGURAÇÃO ---
           # Tente 'louise-carvalho' se 'louise-aldrighi' não funcionar
           CREDLY_USER = "louise-aldrighi" 
-          URL = f"https://www.credly.com/users/{CREDLY_USER}/badges"
+          URL = f"https://www.credly.com/users/{CREDLY_USER}/badges#credly"
           
           print(f"--- INICIANDO ---")
           print(f"Alvo: {URL}")
