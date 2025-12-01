@@ -1,4 +1,4 @@
-[<h1 align="center">
+<h1 align="center">
   <img src="https://img.icons8.com/ios-filled/50/d8a39d/coffee.png" width="30"/>
   Lou { Code }
 </h1>
@@ -23,8 +23,8 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
 
 **Acadêmico**
 
-- 🎓 **Técnico em Informática** | IFSUL  — [**📂**](https://github.com/loucode/IFSUL-TecnicoInformatica-LouiseALD)
-- 🎓 **Tecnólogo em Ciência de Dados** | GRAN  — [**📂**](https://github.com/loucode/GRAN-CienciaDeDados-LouiseALD)
+- 🎓 **Técnico em Informática** | IFSUL — [**📂**](https://github.com/loucode/IFSUL-TecnicoInformatica-LouiseALD)
+- 🎓 **Tecnólogo em Ciência de Dados** | GRAN — [**📂**](https://github.com/loucode/GRAN-CienciaDeDados-LouiseALD)
 - 🎓 **Bacharelado em Estatística** | FMU — [**📂**](https://github.com/loucode/FMU-Estatistica-LouiseALD)
 
 ---
@@ -62,7 +62,12 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
 ### 📜 Certificações
 
 [<img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="120" alt="AWS Certified AI"/>](https://www.credly.com/badges/9a6048ad-2bf2-4ac9-919c-ba6447fcd131/public_url)
-[<img src="https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="120" alt="AWS Certified AI"/>](https://www.credly.com/badges/573dc36f-ec3b-4377-ae2a-c362e9ba2f42/public_url)
+[<img src="https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="120" alt="AWS Cloud Practitioner"/>](https://www.credly.com/badges/573dc36f-ec3b-4377-ae2a-c362e9ba2f42/public_url)
+
+[<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DSOCP.png" width="120" alt="Oracle Cloud Infrastructure 2025 Certified Data Science Professional"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C7DF43B4D75A2DD16481172F2503A054B)
+[<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DCFAV2.png" width="120" alt="Oracle Data Platform 2025 Certified Foundations Associate"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C26DAC929A01ED557CCAB1B6ACC0C793D)
+[<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="120" alt="Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457)
+[<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="120" alt="Oracle Cloud Infrastructure 2025 Certified Foundations Associate"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457)
 
 ---
 
@@ -83,4 +88,3 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
 <p align="center">
   <img src="https://img.icons8.com/ios-filled/50/d8a39d/laptop.png" width="25"/> Feito com amor & tech | Paleta Café com Leite & IA 🎨
 </p>
-](https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457)
