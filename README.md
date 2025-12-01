@@ -84,11 +84,10 @@ Atualmente foco em dados (estruturados e não estruturados), construção de pip
 🔧 **[Painel Power BI - Dados Reais](https://github.com/loucode/powerbi-dashboard)** > Dashboard com visualizações de KPIs, interações e insights estratégicos — em breve disponível.
 
 ---
+<!-- Certificações -->
 <h3>
   <img src="https://img.icons8.com/ios-filled/50/d8a39d/guarantee.png" width="30" style="vertical-align:middle"/> Certificações
 </h3>
-
-### 📜 Certificações
 
 <div align="center">
   <table border="0">
