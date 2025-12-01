@@ -132,6 +132,9 @@ Atualmente foco em dados (estruturados e não estruturados), construção de pip
 
 <div align="center">
 
+<!-- CREDLY-BADGES-START -->
+<!-- CREDLY-BADGES-END -->
+
 <br>
 
 <a href="https://www.credly.com/users/louise-aldrighi/badges">
