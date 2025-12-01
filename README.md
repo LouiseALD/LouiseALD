@@ -1,4 +1,4 @@
-<h1 align="center">
+[<h1 align="center">
   <img src="https://img.icons8.com/ios-filled/50/d8a39d/coffee.png" width="30"/>
   Lou { Code }
 </h1>
@@ -83,3 +83,4 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
 <p align="center">
   <img src="https://img.icons8.com/ios-filled/50/d8a39d/laptop.png" width="25"/> Feito com amor & tech | Paleta Café com Leite & IA 🎨
 </p>
+](https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457)
