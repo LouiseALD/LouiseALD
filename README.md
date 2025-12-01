@@ -133,6 +133,16 @@ Atualmente foco em dados (estruturados e não estruturados), construção de pip
 <div align="center">
 
 <!-- CREDLY-BADGES-START -->
+<div align="center">
+  <a href="https://www.credly.com/badges/573dc36f-ec3b-4377-ae2a-c362e9ba2f42" title="AWS Certified Cloud Practitioner"><img src="https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="110" style="margin: 5px;"></a>
+  <a href="https://www.credly.com/badges/50f19c8e-f827-4df3-9140-a56f0d6cc7d6" title="VS Code Live: Agent Mode"><img src="https://images.credly.com/images/7a4f9b04-0a7f-41ef-92cb-0f983c0e1b82/blob" width="110" style="margin: 5px;"></a>
+  <a href="https://www.credly.com/badges/9a6048ad-2bf2-4ac9-919c-ba6447fcd131" title="AWS Certified AI Practitioner"><img src="https://images.credly.com/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="110" style="margin: 5px;"></a>
+  <a href="https://www.credly.com/badges/f403e155-35e3-4045-9a94-0e5995f81f45" title="AWS Educate Introduction to Generative AI - Training Badge"><img src="https://images.credly.com/images/e50c657a-edd9-4c93-b1cf-2b6634b54abf/blob" width="110" style="margin: 5px;"></a>
+  <a href="https://www.credly.com/badges/18a404cb-99fd-40b1-8355-d3158a75b7b4" title="Google Cloud Computing Foundations Certificate"><img src="https://images.credly.com/images/4dda8ae4-99ee-476c-bca3-6f0adbab42fe/image.png" width="110" style="margin: 5px;"></a>
+  <a href="https://www.credly.com/badges/7f48d04e-07f8-4f5c-b898-d5a1ac85628d" title="Build a Secure Google Cloud Network Skill Badge"><img src="https://images.credly.com/images/e1131ae3-4a52-4af1-9801-b7853767cf79/image.png" width="110" style="margin: 5px;"></a>
+  <a href="https://www.credly.com/badges/db4793fa-78f6-4ad9-9182-b9c9bdae084b" title="Implement Load Balancing on Compute Engine Skill Badge"><img src="https://images.credly.com/images/eea11cba-2a98-4bbe-bad2-447878dd34a2/image.png" width="110" style="margin: 5px;"></a>
+  <a href="https://www.credly.com/badges/44868ae1-ea2b-4dec-827e-0b1fbb731754" title="Prepare Data for ML APIs on Google Cloud Skill Badge"><img src="https://images.credly.com/images/68756311-9319-4eeb-a2b7-76defc8dd8a2/image.png" width="110" style="margin: 5px;"></a>
+</div>
 <!-- CREDLY-BADGES-END -->
 
 <br>
