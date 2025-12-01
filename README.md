@@ -23,16 +23,9 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
 
 **Acadêmico**
 
-- 🎓 **Técnico em Informática** | IFSUL (*Integrado ao Ensino Médio*) — [**📂 Ver Repositório Acadêmico**](https://github.com/loucode/IFSUL-TecnicoInformatica-LouiseALD)
-- 🎓 **Tecnólogo em Ciência de Dados** | GRAN (*5º Período*) — [**📂 Ver Repositório Acadêmico**](https://github.com/loucode/GRAN-CienciaDeDados-LouiseALD)
-- 🎓 **Bacharelado em Estatística** | FMU (*Em andamento*) — [**📂 Ver Repositório Acadêmico**](https://github.com/loucode/FMU-Estatistica-LouiseALD)
-
-**Profissional & Extracurricular**
-
-- 💼 **Estágio na Meta** (2020 - 2021)
-- 💼 **Estágio na SAP Digitalization Portfolio** (3 meses, 2019)
-- 🤖 **Robótica** (2018 - 2020)
-- 📱 **Desenvolvimento Android (Java)** (2020)
+- 🎓 **Técnico em Informática** | IFSUL  — [**📂 Ver Repositório Acadêmico**](https://github.com/loucode/IFSUL-TecnicoInformatica-LouiseALD)
+- 🎓 **Tecnólogo em Ciência de Dados** | GRAN  — [**📂 Ver Repositório Acadêmico**](https://github.com/loucode/GRAN-CienciaDeDados-LouiseALD)
+- 🎓 **Bacharelado em Estatística** | FMU — [**📂 Ver Repositório Acadêmico**](https://github.com/loucode/FMU-Estatistica-LouiseALD)
 
 ---
 
