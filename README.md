@@ -67,7 +67,7 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
 [<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DSOCP.png" width="120" alt="Oracle Cloud Infrastructure 2025 Certified Data Science Professional"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C7DF43B4D75A2DD16481172F2503A054B)
 [<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DCFAV2.png" width="120" alt="Oracle Data Platform 2025 Certified Foundations Associate"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C26DAC929A01ED557CCAB1B6ACC0C793D)
 [<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="120" alt="Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457)
-[<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="120" alt="Oracle Cloud Infrastructure 2025 Certified Foundations Associate"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457)
+[<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="120" alt="Oracle Cloud Infrastructure 2025 Certified Foundations Associate"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=C87C29EE3A17138C4C58E5D942242958B1D66C48F97A48B99BC6923B5B948794)
 
 ---
 
