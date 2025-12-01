@@ -3,7 +3,7 @@
   <h1>Lou { Code }</h1>
   
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=D8A39D&center=true&vCenter=true&width=435&lines=Cientista+de+Dados;Criadora+de+Conte%C3%BAdo;Coffee+Lover+%26+Coder;Especialista+em+IA+Generativa" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=D8A39D&center=true&vCenter=true&width=435&lines=Cientista+de+Dados;Affogato+Lover+%26+Coder;Especialista+em+IA+Generativa" alt="Typing SVG" />
   </a>
 </div>
 
