@@ -61,13 +61,43 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
 
 ### 📜 Certificações
 
-[<img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="120" alt="AWS Certified AI"/>](https://www.credly.com/badges/9a6048ad-2bf2-4ac9-919c-ba6447fcd131/public_url)
-[<img src="https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="120" alt="AWS Cloud Practitioner"/>](https://www.credly.com/badges/573dc36f-ec3b-4377-ae2a-c362e9ba2f42/public_url)
-
-[<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DSOCP.png" width="210" alt="Oracle Cloud Infrastructure 2025 Certified Data Science Professional"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C7DF43B4D75A2DD16481172F2503A054B)
-[<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DCFAV2.png" width="210" alt="Oracle Data Platform 2025 Certified Foundations Associate"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C26DAC929A01ED557CCAB1B6ACC0C793D)
-[<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="210" alt="Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457)
-[<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="210" alt="Oracle Cloud Infrastructure 2025 Certified Foundations Associate"/>](https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457)
+<table border="0">
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://www.credly.com/badges/9a6048ad-2bf2-4ac9-919c-ba6447fcd131/public_url">
+        <img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="120" alt="AWS Certified AI"/>
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://www.credly.com/badges/573dc36f-ec3b-4377-ae2a-c362e9ba2f42/public_url">
+        <img src="https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="120" alt="AWS Cloud Practitioner"/>
+      </a>
+    </td>
+    <td align="center" width="50%" colspan="2"></td> 
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C7DF43B4D75A2DD16481172F2503A054B">
+        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DSOCP.png" width="180" alt="Data Science Professional"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C26DAC929A01ED557CCAB1B6ACC0C793D">
+        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DCFAV2.png" width="180" alt="Data Platform Foundations"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457">
+        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="180" alt="AI Foundations"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457">
+        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="180" alt="Cloud Foundations"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
