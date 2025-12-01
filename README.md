@@ -85,49 +85,61 @@ Atualmente foco em dados (estruturados e não estruturados), construção de pip
 
 ---
 
-### 📜 Certificações
+---
 
-<table border="0">
-  <tr>
-    <td align="center" width="25%">
-      <a href="https://www.credly.com/badges/9a6048ad-2bf2-4ac9-919c-ba6447fcd131/public_url">
-        <img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="120" alt="AWS Certified AI"/>
-      </a>
-    </td>
-    <td align="center" width="25%">
-      <a href="https://www.credly.com/badges/573dc36f-ec3b-4377-ae2a-c362e9ba2f42/public_url">
-        <img src="https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="120" alt="AWS Cloud Practitioner"/>
-      </a>
-    </td>
-    <td align="center" width="50%" colspan="2">
-        <a href="https://www.credly.com/users/louise-carvalho/badges">
-            <img src="https://img.shields.io/badge/Ver_todas_no_Credly-->-d8a39d?style=flat-square&logo=credly&logoColor=white" />
+### 📜 Certificações & Badges
+
+<div align="center">
+  
+  <table border="0">
+    <tr>
+      <td align="center" width="150">
+        <a href="https://www.credly.com/badges/9a6048ad-2bf2-4ac9-919c-ba6447fcd131/public_url">
+          <img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" width="120" alt="AWS Certified AI"/>
         </a>
-    </td> 
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C7DF43B4D75A2DD16481172F2503A054B">
-        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DSOCP.png" width="220" alt="Data Science Professional"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C26DAC929A01ED557CCAB1B6ACC0C793D">
-        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DCFAV2.png" width="220" alt="Data Platform Foundations"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457">
-        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="220" alt="AI Foundations"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457">
-        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="220" alt="Cloud Foundations"/>
-      </a>
-    </td>
-  </tr>
-</table>
+      </td>
+      <td align="center" width="150">
+        <a href="https://www.credly.com/badges/573dc36f-ec3b-4377-ae2a-c362e9ba2f42/public_url">
+          <img src="https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="120" alt="AWS Cloud Practitioner"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <table border="0">
+    <tr>
+      <td align="center">
+        <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C7DF43B4D75A2DD16481172F2503A054B">
+          <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DSOCP.png" width="220" alt="Oracle Data Science Professional"/>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C26DAC929A01ED557CCAB1B6ACC0C793D">
+          <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DCFAV2.png" width="220" alt="Oracle Data Platform Foundations"/>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457">
+          <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="220" alt="Oracle AI Foundations"/>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457">
+          <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="220" alt="Oracle Cloud Foundations"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+  
+  <a href="https://www.credly.com/users/louise-carvalho/badges">
+    <img src="https://img.shields.io/badge/Ver_todas_minhas_conquistas_no_Credly-d8a39d?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Profile"/>
+  </a>
+
+</div>
 
 ---
 
