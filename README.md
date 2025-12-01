@@ -23,9 +23,9 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
 
 **Acadêmico**
 
-- 🎓 **Técnico em Informática** | IFSUL  — [**📂 Ver Repositório Acadêmico**](https://github.com/loucode/IFSUL-TecnicoInformatica-LouiseALD)
-- 🎓 **Tecnólogo em Ciência de Dados** | GRAN  — [**📂 Ver Repositório Acadêmico**](https://github.com/loucode/GRAN-CienciaDeDados-LouiseALD)
-- 🎓 **Bacharelado em Estatística** | FMU — [**📂 Ver Repositório Acadêmico**](https://github.com/loucode/FMU-Estatistica-LouiseALD)
+- 🎓 **Técnico em Informática** | IFSUL  — [**📂**](https://github.com/loucode/IFSUL-TecnicoInformatica-LouiseALD)
+- 🎓 **Tecnólogo em Ciência de Dados** | GRAN  — [**📂**](https://github.com/loucode/GRAN-CienciaDeDados-LouiseALD)
+- 🎓 **Bacharelado em Estatística** | FMU — [**📂**](https://github.com/loucode/FMU-Estatistica-LouiseALD)
 
 ---
 
