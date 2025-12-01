@@ -132,12 +132,7 @@ Atualmente foco em dados (estruturados e não estruturados), construção de pip
 
 <div align="center">
 
-<br>
-
-<a href="https://www.credly.com/users/louise-aldrighi/badges">
-    <img src="https://img.shields.io/badge/Ver_todas_minhas_conquistas_no_Credly-d8a39d?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Profile"/>
-  </a>
-</div>
+<a href="https://www.credly.com/users/louise-aldrighi/badges"> <img src="https://img.shields.io/badge/Ver_todas_minhas_conquistas_no_Credly-d8a39d?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Profile"/> </a> </div>
 
 
 ---
