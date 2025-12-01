@@ -128,15 +128,12 @@ Atualmente foco em dados (estruturados e não estruturados), construção de pip
 
 ---
 
-### 🏅 Perfil no Credly
+### 🏅 Perfil no Credly (Auto)
 
-<div align="center">
-  <p>Para verificar a autenticidade das credenciais ou ver outras conquistas:</p>
-  
-  <a href="https://www.credly.com/users/louise-carvalho/badges">
-    <img src="https://img.shields.io/badge/Ver_Badge_Wallet_no_Credly-d8a39d?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Profile"/>
-  </a>
-</div>
+
+
+
+---
 
 <p align="center">
   <img src="https://img.icons8.com/ios-filled/50/d8a39d/laptop.png" width="25"/> Feito com amor & tech | Paleta Café com Leite & IA 🎨
