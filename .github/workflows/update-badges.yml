@@ -1,4 +1,4 @@
-name: Atualizar Badges do Credly (Script Python)
+name: Atualizar Badges do Credly (Versão Final)
 
 on:
   schedule:
@@ -30,56 +30,56 @@ jobs:
           from bs4 import BeautifulSoup
           import sys
 
-          # --- CONFIGURAÇÃO ---
-          # Tente 'louise-carvalho' se 'louise-aldrighi' não funcionar
+          # SEU USUÁRIO
           CREDLY_USER = "louise-aldrighi" 
           URL = f"https://www.credly.com/users/{CREDLY_USER}/badges#credly"
           
           print(f"--- INICIANDO ---")
-          print(f"Alvo: {URL}")
+          print(f"Lendo perfil: {URL}")
           
           try:
               headers = {
-                  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
               }
               response = requests.get(URL, headers=headers)
               
               if response.status_code != 200:
-                  print(f"ERRO: Não foi possível acessar o perfil. Status Code: {response.status_code}")
+                  print(f"ERRO: Não foi possível acessar o perfil. Status: {response.status_code}")
                   sys.exit(1)
               
               soup = BeautifulSoup(response.text, 'html.parser')
               
-              # Tenta encontrar badges (Credly muda as classes as vezes, então tentamos duas formas)
-              badges = soup.find_all('div', class_='cr-standard-grid-item-content')
-              if not badges:
-                  print("Tentando seletor alternativo...")
-                  badges = soup.find_all('div', attrs={'data-testid': 'badge-grid-item'})
-
+              # AQUI ESTAVA O SEGREDO: Usar o data-testid que vimos no seu HTML
+              badges = soup.find_all('div', attrs={'data-testid': 'mobile-badge-stackable-card'})
+              
               print(f"Badges encontradas: {len(badges)}")
 
               if len(badges) == 0:
-                  print("ERRO CRÍTICO: Nenhuma badge encontrada. Verifique se o USUÁRIO está correto no script.")
-                  sys.exit(0) # Sai sem erro para não quebrar o workflow, mas avisa
+                  print("ERRO: Nenhuma badge encontrada mesmo com o novo seletor.")
+                  sys.exit(0)
 
               # Monta o HTML
               html_content = '<div align="center">\n'
               
               count = 0
               for badge in badges:
-                  if count >= 5: break 
+                  if count >= 6: break # Vamos mostrar as 6 mais recentes
                   
+                  # No seu HTML, o link está na div principal e a imagem dentro dela
+                  relative_link = badge.get('href')
                   img_tag = badge.find('img')
-                  link_tag = badge.find('a')
                   
-                  if img_tag and link_tag:
+                  if relative_link and img_tag:
+                      href = f"https://www.credly.com{relative_link}"
                       img_src = img_tag.get('src')
-                      href = "https://www.credly.com" + link_tag.get('href', '')
-                      title = img_tag.get('alt', 'Badge')
+                      title = badge.get('aria-label', 'Badge Credly')
                       
-                      if img_src:
-                          html_content += f'  <a href="{href}" title="{title}"><img src="{img_src}" width="110" style="margin: 5px;"></a>\n'
-                          count += 1
+                      # Ajuste para pegar imagem de melhor qualidade se possível (opcional)
+                      if "110x110" in img_src:
+                          img_src = img_src.replace("110x110", "220x220")
+                      
+                      html_content += f'  <a href="{href}" title="{title}"><img src="{img_src}" width="110" style="margin: 5px;"></a>\n'
+                      count += 1
               
               html_content += '</div>'
               
@@ -91,7 +91,7 @@ jobs:
               end_marker = ""
               
               if start_marker not in readme or end_marker not in readme:
-                  print("ERRO: Marcadores não encontrados no README.md. Adicione e ")
+                  print("ERRO: Marcadores não encontrados no README.md")
                   sys.exit(1)
               
               part1 = readme.split(start_marker)[0]
@@ -102,7 +102,7 @@ jobs:
               with open('README.md', 'w', encoding='utf-8') as f:
                   f.write(new_readme)
               
-              print("SUCESSO: README atualizado!")
+              print("SUCESSO: README atualizado com as novas badges!")
 
           except Exception as e:
               print(f"ERRO DE EXECUÇÃO: {e}")
@@ -111,4 +111,4 @@ jobs:
       - name: Commit e Push das alterações
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "🤖 Update: Certificações Credly (Script v2)"
+          commit_message: "🤖 Update: Badges encontradas com sucesso!"
