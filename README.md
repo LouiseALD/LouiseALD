@@ -78,22 +78,22 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
   <tr>
     <td align="center">
       <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C7DF43B4D75A2DD16481172F2503A054B">
-        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DSOCP.png" width="180" alt="Data Science Professional"/>
+        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DSOCP.png" width="220" alt="Data Science Professional"/>
       </a>
     </td>
     <td align="center">
       <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B6A2B2C799B6D1F929A77C553F5C20C26DAC929A01ED557CCAB1B6ACC0C793D">
-        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DCFAV2.png" width="180" alt="Data Platform Foundations"/>
+        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25DCFAV2.png" width="220" alt="Data Platform Foundations"/>
       </a>
     </td>
     <td align="center">
       <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457">
-        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="180" alt="AI Foundations"/>
+        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="220" alt="AI Foundations"/>
       </a>
     </td>
     <td align="center">
       <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=31A82AEADF19C8B2B3D34F87950BBE7502D9DB3040A7CB42238705F68AB29457">
-        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="180" alt="Cloud Foundations"/>
+        <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png" width="220" alt="Cloud Foundations"/>
       </a>
     </td>
   </tr>
