@@ -128,7 +128,7 @@ Atualmente foco em dados (estruturados e não estruturados), construção de pip
 
 ---
 
-### 🏅 Perfil no Credly (Auto)
+### 🏅 Badges
 
 <div align="center">
 
