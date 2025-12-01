@@ -1,26 +1,103 @@
-name: Atualizar Badges do Credly
+name: Atualizar Badges do Credly (Script Python)
 
 on:
   schedule:
     - cron: "0 0 * * *" # Roda todo dia à meia-noite
-  workflow_dispatch: # Permite rodar manualmente clicando num botão
+  workflow_dispatch: # Permite rodar manualmente clicando no botão
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
     steps:
-      - name: Checkout
+      - name: Checkout do repositório
         uses: actions/checkout@v3
 
-      - name: Atualizar Badges Credly
-        uses: ricardolsmendes/credly-badges-action@v1.3.1
+      - name: Configurar Python
+        uses: actions/setup-python@v4
         with:
-          credly_user: louise-aldrighi # Seu usuário novo
-          badge_size: 130              # Tamanho das medalhas
-          number_of_badges: 30         # Quantas mostrar (máximo)
-          sort: date                   # Ordenar por data (mais recentes primeiro)
+          python-version: '3.9'
+
+      - name: Instalar dependências
+        run: pip install requests beautifulsoup4
+
+      - name: Rodar Script de Atualização
+        shell: python
+        run: |
+          import requests
+          from bs4 import BeautifulSoup
+          import os
+
+          # Seu usuário do Credly
+          CREDLY_USER = "louise-aldrighi"
+          URL = f"https://www.credly.com/users/{CREDLY_USER}/badges"
           
-      - name: Commit e Push
+          print(f"Buscando badges para: {CREDLY_USER}...")
+          
+          try:
+              headers = {'User-Agent': 'Mozilla/5.0'}
+              response = requests.get(URL, headers=headers)
+              response.raise_for_status()
+              
+              soup = BeautifulSoup(response.text, 'html.parser')
+              badges = soup.find_all('div', class_='cr-standard-grid-item-content')
+              
+              # Monta o HTML das badges (Pega as top 5 mais recentes)
+              html_content = '<div align="center">\n'
+              
+              count = 0
+              for badge in badges:
+                  if count >= 5: break # Limite de 5 badges para não poluir
+                  
+                  img_tag = badge.find('img')
+                  link_tag = badge.find('a')
+                  
+                  if img_tag and link_tag:
+                      img_src = img_tag['src']
+                      # Ajusta o link para o certificado público
+                      href = "https://www.credly.com" + link_tag['href']
+                      
+                      # Formatação visual (margin para afastar um pouco)
+                      html_content += f'  <a href="{href}"><img src="{img_src}" width="110" style="margin: 5px;"></a>\n'
+                      count += 1
+              
+              html_content += '</div>'
+              
+              if count == 0:
+                  print("Nenhuma badge encontrada. Verifique se o perfil é público.")
+                  exit(0)
+
+              # Ler o README atual
+              with open('README.md', 'r', encoding='utf-8') as f:
+                  readme = f.read()
+              
+              # Marcadores onde as badges vão entrar
+              start_marker = ""
+              end_marker = ""
+              
+              if start_marker not in readme or end_marker not in readme:
+                  print("Erro: Marcadores não encontrados no README.md")
+                  exit(1)
+              
+              # Substituir o conteúdo
+              part1 = readme.split(start_marker)[0]
+              part2 = readme.split(end_marker)[1]
+              
+              new_readme = f"{part1}{start_marker}\n{html_content}\n{end_marker}{part2}"
+              
+              # Salvar
+              with open('README.md', 'w', encoding='utf-8') as f:
+                  f.write(new_readme)
+              
+              print("README atualizado com sucesso!")
+
+          except Exception as e:
+              print(f"Erro ao processar: {e}")
+              exit(1)
+
+      - name: Commit e Push das alterações
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "🤖 Atualizando certificações via Credly"
+          commit_message: "🤖 Update: Certificações Credly (Via Python Script)"
