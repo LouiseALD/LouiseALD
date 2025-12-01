@@ -30,7 +30,7 @@
 ### 👩‍💻 Sobre mim
 
 Sou a **Louise**, também conhecida como *Lou* — apaixonada por tecnologia e por entender como as coisas funcionam.  
-Sou cientista de dados, engenheira e estudante de Estatística, com uma forte paixão por **IA generativa**, **escuta inteligente** e soluções que aproximam pessoas e tecnologia.
+Sou cientista e engenheira de dados, estudante de Estatística, com uma forte paixão por **IA generativa** e criar soluções que aproximam pessoas e tecnologia ( e resolvem problemas! ).
 
 Atualmente foco em dados (estruturados e não estruturados), construção de pipelines de IA, visualização de dados e modelagem estatística.
 
