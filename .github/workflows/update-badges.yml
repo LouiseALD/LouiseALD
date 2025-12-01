@@ -58,23 +58,17 @@ jobs:
               # --- MONTAGEM DO HTML ---
               html_content = '<div align="center">\n'
               
-              # Pega as 8 mais recentes
               count = 0
               for item in badges_list:
                   if count >= 8: break 
                   
                   badge_details = item.get('badge_template', {})
-                  
-                  # Dados para o HTML
                   badge_id = item.get('id')
                   titulo = badge_details.get('name', 'Badge')
                   img_url = badge_details.get('image', {}).get('url')
-                  
-                  # Constrói o link público do Credly
                   public_link = f"https://www.credly.com/badges/{badge_id}"
                   
                   if img_url and badge_id:
-                      # Adiciona a imagem com link
                       html_content += f'  <a href="{public_link}" title="{titulo}"><img src="{img_url}" width="110" style="margin: 5px;"></a>\n'
                       count += 1
               
@@ -85,15 +79,16 @@ jobs:
               with open('README.md', 'r', encoding='utf-8') as f:
                   readme = f.read()
               
-              # AQUI ESTAVA O ERRO: As strings não podem estar vazias
-              start_marker = ""
-              end_marker = ""
+              # --- O TRUQUE ANTI-BUG ---
+              # Montamos a string somando pedaços para garantir que o texto não suma
+              start_marker = "<!" + "-- CREDLY-BADGES-START --" + ">"
+              end_marker = "<!" + "-- CREDLY-BADGES-END --" + ">"
               
               if start_marker not in readme or end_marker not in readme:
-                  print("❌ ERRO: Marcadores não encontrados no README.")
+                  print(f"❌ ERRO: Marcadores não encontrados no README.")
+                  print(f"Esperado: {start_marker} e {end_marker}")
                   sys.exit(1)
               
-              # Substitui o miolo entre os marcadores
               part1 = readme.split(start_marker)[0]
               part2 = readme.split(end_marker)[1]
               
