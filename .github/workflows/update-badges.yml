@@ -43,13 +43,13 @@ jobs:
               response = requests.get(URL, headers=headers)
               
               if response.status_code != 200:
-                  print(f"Erro ao acessar a API: {response.status_code}")
+                  print(f"❌ Erro ao acessar a API: {response.status_code}")
                   sys.exit(1)
               
               data = response.json()
               badges_list = data.get('data', [])
               
-              print(f"Sucesso! Encontrados {len(badges_list)} badges.")
+              print(f"✅ Sucesso! Encontrados {len(badges_list)} badges.")
 
               if not badges_list:
                   print("Aviso: Lista de badges retornou vazia.")
@@ -89,7 +89,7 @@ jobs:
               end_marker = ""
               
               if start_marker not in readme or end_marker not in readme:
-                  print("ERRO: Marcadores não encontrados.")
+                  print("❌ ERRO: Marcadores não encontrados.")
                   sys.exit(1)
               
               # Substitui o miolo entre os marcadores
@@ -101,13 +101,13 @@ jobs:
               with open('README.md', 'w', encoding='utf-8') as f:
                   f.write(new_readme)
               
-              print("README atualizado com sucesso!")
+              print("✅ README atualizado com sucesso!")
 
           except Exception as e:
-              print(f"Ocorreu um erro crítico: {e}")
+              print(f"❌ Ocorreu um erro crítico: {e}")
               sys.exit(1)
 
       - name: Commit e Push das alterações
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update: Badges via API JSON"
+          commit_message: "🤖 Update: Badges via API JSON"
