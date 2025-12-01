@@ -1,0 +1,26 @@
+name: Atualizar Badges do Credly
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Roda todo dia à meia-noite
+  workflow_dispatch: # Permite rodar manualmente clicando num botão
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Atualizar Badges Credly
+        uses: ricardolsmendes/credly-badges-action@v1.3.1
+        with:
+          credly_user: louise-aldrighi # Seu usuário novo
+          badge_size: 130              # Tamanho das medalhas
+          number_of_badges: 30         # Quantas mostrar (máximo)
+          sort: date                   # Ordenar por data (mais recentes primeiro)
+          
+      - name: Commit e Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "🤖 Atualizando certificações via Credly"
