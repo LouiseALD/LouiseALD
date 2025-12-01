@@ -1,21 +1,67 @@
-<h1 align="center">
-  <img src="https://img.icons8.com/ios-filled/50/d8a39d/coffee.png" width="30"/>
-  Lou { Code }
-</h1>
+<div align="center">
+  <img src="https://img.icons8.com/ios-filled/50/d8a39d/coffee.png" width="40"/>
+  <h1>Lou { Code }</h1>
+  
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=D8A39D&center=true&vCenter=true&width=435&lines=Cientista+de+Dados;Criadora+de+Conte%C3%BAdo;Coffee+Lover+%26+Coder;Especialista+em+IA+Generativa" alt="Typing SVG" />
+  </a>
+</div>
 
-<p align="center">
-  <em>códigos e cappuccino</em><br/>
-  <strong>Cientista de Dados • Criadora de Conteúdo • Apaixonada por Tecnologia</strong>
-</p>
+<div align="center">
+  <em>"Transformando café em código e dados em histórias."</em> ☕✨
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/louiseca/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.youtube.com/@LouCode">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
+  <a href="mailto:lou@code.dev">
+    <img src="https://img.shields.io/badge/Email-D8A39D?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</div>
 
 ---
 
 ### 👩‍💻 Sobre mim
 
 Sou a **Louise**, também conhecida como *Lou* — apaixonada por tecnologia e por entender como as coisas funcionam.  
-Sou cientista de dados, engenheira e estudante de Estatística, com uma forte paixão por IA generativa, escuta inteligente e soluções que aproximam pessoas e tecnologia.
+Sou cientista de dados, engenheira e estudante de Estatística, com uma forte paixão por **IA generativa**, **escuta inteligente** e soluções que aproximam pessoas e tecnologia.
 
-Tenho experiência em dados (estruturados e não estruturados), construção de pipelines de IA, visualização de dados e modelagem estatística — e adoro transformar café em código ☕.
+Atualmente foco em dados (estruturados e não estruturados), construção de pipelines de IA, visualização de dados e modelagem estatística.
+
+---
+
+### 📈 GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LouiseALD&show_icons=true&theme=transparent&title_color=d8a39d&icon_color=d8a39d&text_color=7e5847&bg_color=fffbf0&hide_border=true" />
+  
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LouiseALD&layout=compact&theme=transparent&title_color=d8a39d&text_color=7e5847&bg_color=fffbf0&hide_border=true" />
+</div>
+
+---
+
+### 🧰 Tech Stack & Tools
+
+<div align="center">
+
+  **Dados & Machine Learning**<br>
+  <img src="https://skillicons.dev/icons?i=python,pandas,numpy,sklearn,pytorch,tensorflow,r" />
+  <br><br>
+
+  **Cloud & DevOps**<br>
+  <img src="https://skillicons.dev/icons?i=aws,azure,docker,git,linux,bash" />
+  <br><br>
+
+  **Visualização & Web**<br>
+  <img src="https://skillicons.dev/icons?i=powerbi,flask,nodejs,vue,html,css,js,selenium,mysql,postgres,mongodb" />
+
+</div>
 
 ---
 
@@ -26,26 +72,6 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
 - 🎓 **Técnico em Informática** | IFSUL — [**📂**](https://github.com/loucode/IFSUL-TecnicoInformatica-LouiseALD)
 - 🎓 **Tecnólogo em Ciência de Dados** | GRAN — [**📂**](https://github.com/loucode/GRAN-CienciaDeDados-LouiseALD)
 - 🎓 **Bacharelado em Estatística** | FMU — [**📂**](https://github.com/loucode/FMU-Estatistica-LouiseALD)
-
----
-
-### 🧰 Tech Stack
-
-**📊 Dados & IA:** Python · Pandas · NumPy · SQL · Power Query · AWS Glue · Azure Data Lake · Dados não estruturados · Engenharia de Dados
-
-**🤖 Machine Learning:** Scikit-learn · XGBoost · PyTorch · Keras · Modelagem Preditiva · Classificação · Regressão · Modelos supervisionados e não supervisionados
-
-**🧠 IA Generativa:** OpenAI · AWS Bedrock · LLaMA 3 · Transformers · Whisper · Prompt Engineering · Fine-tuning · Modelos Fundamentais (Foundation Models) · Geração de insights · Clusterização de narrativas
-
-**📈 Estatística:** Distribuições de probabilidade · Testes de hipótese · Inferência estatística · Análise exploratória de dados · Regressão linear · Simulações · Probabilidade Bayesiana
-
-**📊 Dashboards & Visualização:** Power BI · Looker Studio · Streamlit · Google Sheets · Excel · Matplotlib · Seaborn · Gráficos interativos · KPIs
-
-**☁️ Cloud & Infraestrutura:** AWS (Lambda, S3, Glue, DynamoDB, SageMaker, Bedrock) · Azure (Data Lake, Cosmos DB) · Docker · Airflow
-
-**🌐 Web & Dev Tools:** Flask · Node.js · AdonisJS · Vue.js · MongoDB · HTML5 · CSS3 · JavaScript · Git/GitFlow · PL/SQL
-
-**🔍 Scraping & RPA:** Selenium · Web Scraping · API REST · Postman · contextlib · pydub · requests · OAuth2
 
 ---
 
@@ -73,7 +99,11 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
         <img src="https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="120" alt="AWS Cloud Practitioner"/>
       </a>
     </td>
-    <td align="center" width="50%" colspan="2"></td> 
+    <td align="center" width="50%" colspan="2">
+        <a href="https://www.credly.com/users/louise-carvalho/badges">
+            <img src="https://img.shields.io/badge/Ver_todas_no_Credly-->-d8a39d?style=flat-square&logo=credly&logoColor=white" />
+        </a>
+    </td> 
   </tr>
   <tr>
     <td align="center">
@@ -101,20 +131,8 @@ Tenho experiência em dados (estruturados e não estruturados), construção de 
 
 ---
 
-### 🏅 Meus Badges no Credly
-
-> Acompanhe minhas conquistas e certificações diretamente no [**Credly**](https://www.credly.com/users/louise-carvalho/badges)
-
----
-
-### ☕ Vamos conversar?
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/louiseca/)
-- 📫 lou@code.dev
-- 📺 [YouTube - Lou Code](https://www.youtube.com/@LouCode)
-
----
-
-<p align="center">
-  <img src="https://img.icons8.com/ios-filled/50/d8a39d/laptop.png" width="25"/> Feito com amor & tech | Paleta Café com Leite & IA 🎨
-</p>
+<div align="center">
+  <img src="https://img.icons8.com/ios-filled/50/d8a39d/laptop.png" width="25"/> 
+  <br>
+  Feito com amor & tech | <strong>Lou Code</strong> 🎨
+</div>
