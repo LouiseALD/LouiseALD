@@ -131,8 +131,6 @@ Atualmente foco em dados (estruturados e não estruturados), construção de pip
 
 ---
 
-<div align="center">
-  <img src="https://img.icons8.com/ios-filled/50/d8a39d/laptop.png" width="25"/> 
-  <br>
-  Feito com amor & tech | <strong>Lou Code</strong> 🎨
-</div>
+<p align="center">
+  <img src="https://img.icons8.com/ios-filled/50/d8a39d/laptop.png" width="25"/> Feito com amor & tech | Paleta Café com Leite & IA 🎨
+</p>
